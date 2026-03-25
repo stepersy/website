@@ -212,6 +212,40 @@ a:hover {
     border-color: rgba(59, 130, 246, 0.3);
 }
 
+/* Buttons */
+.cv-download-section {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.85rem 1.75rem;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.primary-btn {
+    background-color: var(--accent-color);
+    color: var(--surface-color);
+    border: 2px solid var(--accent-color);
+}
+
+.primary-btn:hover {
+    background-color: transparent;
+    color: var(--accent-color);
+    text-decoration: none;
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-glow);
+}
+
 /* Sections */
 .cv-section {
     margin-bottom: 3.5rem;
